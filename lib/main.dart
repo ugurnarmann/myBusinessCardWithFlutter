@@ -6,6 +6,7 @@ void main() {
     home: new Scaffold(
       appBar: AppBar(
         title: Text('Merhaba Dünya'),
+        backgroundColor: Colors.purple,
       ),
     ),
   ));
