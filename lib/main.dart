@@ -10,9 +10,10 @@ class MainPage extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.indigo.shade900,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -28,19 +29,59 @@ class MainPage extends StatelessWidget {
                   fontFamily: 'pasificoRegular',
                 ),
               ),
-              Container(
-                width: 250,
-                height: 3,
-                color: Colors.teal.shade100,
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.teal.shade100,
+                ),
               ),
               Text(
                 'SOFTWARE DEVELOPER',
                 style: TextStyle(
                   fontFamily: 'robotoMonoRegular',
-                  fontSize: 20.0,
+                  fontSize: 18.0,
                   color: Colors.teal.shade100,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    '+90 546 601 58 27',
+                    style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontSize: 20.0,
+                        fontFamily: 'SourceSansPro'),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                  horizontal: 25.0,
+                  vertical: 10.0,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal.shade900,
+                  ),
+                  title: Text(
+                    'ugurnrmn@gmail.com',
+                    style: TextStyle(
+                        color: Colors.teal.shade900,
+                        fontSize: 20.0,
+                        fontFamily: 'SourceSansPro'),
+                  ),
                 ),
               ),
             ],
