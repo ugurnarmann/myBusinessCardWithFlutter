@@ -41,7 +41,7 @@ class MainPage extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'robotoMonoRegular',
                   fontSize: 18.0,
-                  color: Colors.black,
+                  color: Colors.indigo.shade100,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
                 ),
