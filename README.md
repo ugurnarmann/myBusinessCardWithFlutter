@@ -2,6 +2,8 @@
 
 My Flutter Learning Series.
 
+![alt text](https://i.imgur.com/b7mG29V.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
