@@ -1,6 +1,6 @@
-# myFirst_app
+# My Business Card With Flutter
 
-A new Flutter project.
+My Flutter Learning Series.
 
 ## Getting Started
 
