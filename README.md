@@ -2,7 +2,7 @@
 
 My Flutter Learning Series.
 
-![alt text](https://i.imgur.com/b7mG29V.png)
+![alt text](https://i.imgur.com/nY5zmDd.png)
 
 ## Getting Started
 
