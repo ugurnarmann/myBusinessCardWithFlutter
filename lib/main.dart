@@ -41,7 +41,7 @@ class MainPage extends StatelessWidget {
                 style: TextStyle(
                   fontFamily: 'robotoMonoRegular',
                   fontSize: 18.0,
-                  color: Colors.teal.shade100,
+                  color: Colors.black,
                   letterSpacing: 2.5,
                   fontWeight: FontWeight.bold,
                 ),
@@ -54,12 +54,12 @@ class MainPage extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
-                    color: Colors.teal.shade900,
+                    color: Colors.indigo.shade900,
                   ),
                   title: Text(
                     '+90 546 601 58 27',
                     style: TextStyle(
-                        color: Colors.teal.shade900,
+                        color: Colors.indigo.shade900,
                         fontSize: 20.0,
                         fontFamily: 'SourceSansPro'),
                   ),
@@ -73,12 +73,12 @@ class MainPage extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Colors.teal.shade900,
+                    color: Colors.indigo.shade900,
                   ),
                   title: Text(
                     'ugurnrmn@gmail.com',
                     style: TextStyle(
-                        color: Colors.teal.shade900,
+                        color: Colors.indigo.shade900,
                         fontSize: 20.0,
                         fontFamily: 'SourceSansPro'),
                   ),
